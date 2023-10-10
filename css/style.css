@@ -5,6 +5,7 @@
     --white: #FFFFFF;
     --black: #2C3E50;
 }
+
 .ms_img{
     max-width: 20rem;
 }
@@ -12,12 +13,40 @@
     border: 0;
     background-color: transparent;
 }
+
 .start-bootstrap-section, .about-section{
-    background-color: #1ABC9C;
+    background-color: var(--green);
 }
+
+/* button */
+.ms_btn-outline-secondary{
+    
+    
+}
+.ms_btn-secondary{
+    background-color: var(--green);
+    color: white;
+}
+
+/* Input contact me section */
 .ms_form-control{
     border-left: 0;
     border-right: 0;
     border-top: 0;
     border-radius: 0;
 }
+
+/* FOOTER */
+.footer-top{
+    background-color: var(--grey-blue);
+    color: var(--white);
+}
+.icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.footer-bottom{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
