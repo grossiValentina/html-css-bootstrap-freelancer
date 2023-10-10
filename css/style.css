@@ -5,6 +5,12 @@
     --white: #FFFFFF;
     --black: #2C3E50;
 }
+/* nav section */
+.ms_bg-color{
+    background-color: var(--dark-blue);
+}
+
+
 
 .ms_img{
     max-width: 20rem;
@@ -19,10 +25,6 @@
 }
 
 /* button */
-.ms_btn-outline-secondary{
-    
-    
-}
 .ms_btn-secondary{
     background-color: var(--green);
     color: white;
