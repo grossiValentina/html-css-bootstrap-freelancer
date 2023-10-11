@@ -6,14 +6,17 @@
     --black: #2C3E50;
 }
 /* nav section */
+
 .ms_bg-color{
     background-color: var(--dark-blue);
 }
 
-
-
 .ms_img{
     max-width: 20rem;
+}
+
+.hr-stella{
+    font-size: 4px;
 }
 .card{
     border: 0;
@@ -46,6 +49,7 @@
 .icon{
     width: 2.5rem;
     height: 2.5rem;
+    align-items: center;
 }
 .footer-bottom{
     background-color: var(--dark-blue);
